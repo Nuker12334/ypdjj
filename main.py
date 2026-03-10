@@ -20,7 +20,9 @@ def home():
     return "Bot is alive!"
 
 def run_flask():
-    app.run(host='0.0.0.0', port=8080)
+    import os
+port = int(os.environ.get("PORT", 8080))
+app.run(host='0.0.0.0', port=port)
 
 # Start Flask in a background thread
 thread = threading.Thread(target=run_flask)
