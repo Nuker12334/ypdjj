@@ -9,7 +9,7 @@ from discord_gen import generate_discord_account
 from roblox_gen import generate_roblox_account
 
 # ========== CONFIG ==========
-TOKEN = "YOUR_BOT_TOKEN_HERE"           # ← Replace with your bot token
+TOKEN = "8555387342:AAFucFVKYfbF8Qqlj20IRhJBii5IhuxW_KE"           # ← Replace with your bot token
 # =============================
 
 # Flask keep‑alive server
